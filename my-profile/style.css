@@ -1,0 +1,97 @@
+body {
+	color:rgb( 0, 0, 0);
+	background-color: ghostwhite;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.75;
+	font-weight: 425;
+	text-align: start;
+	}
+h1 {
+	color: #192655;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-align: center;
+	}
+h2 {
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 3px;
+	text-decoration: underline;
+	color: #192655;
+	text-align: center;
+	}
+a {
+	text-decoration: none;
+	color: grey;
+	}
+#lkdn, #fcbk, #gdc {
+	width: 40px;
+	}
+
+.intro {
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px lightgrey;
+	margin-left: 265px;
+	margin-right: 265px;
+	}
+
+.container {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px lightgrey;
+	padding: 20px;
+	margin: 40px;
+	text-align: center;
+	margin-left: 265px;
+	margin-right: 265px;
+	}
+.ieseg {
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: skyblue;
+	color: #F5FCCD;
+	}
+.ieseg:hover {
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: dodgerblue;
+	color: #F5FCCD;
+	}
+.social {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px lightgrey;
+	padding: 20px;
+	margin: 40px;
+	margin-left: 265px;
+	margin-right: 265px;
+	}
+.img-circle {
+	border-radius: 75px;
+	width: 150px;
+	}
+
+.container, .intro, .social {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+@media (max-width: 760px) {
+	.container, .intro, .social {
+		width:600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container, .intro, .social {
+		width:400px;
+	}
+}
